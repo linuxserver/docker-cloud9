@@ -1,0 +1,26 @@
+FROM lsiobase/cloud9:arm32v7-latest
+
+# set version label
+ARG BUILD_DATE
+ARG VERSION
+LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="thelamer"
+
+RUN \
+ echo "**** install nodejs and yarn ****" && \
+ curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
+ curl -s https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
+ echo 'deb https://deb.nodesource.com/node_12.x bionic main' \
+	> /etc/apt/sources.list.d/nodesource.list && \
+ echo 'deb https://dl.yarnpkg.com/debian/ stable main' \
+        > /etc/apt/sources.list.d/yarn.list && \
+ apt-get update && \
+ apt-get install -y \
+	nodejs \
+	yarn && \
+ echo "**** cleanup ****" && \
+ apt-get autoclean && \
+ rm -rf \
+        /var/lib/apt/lists/* \
+        /var/tmp/* \
+        /tmp/*

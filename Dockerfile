@@ -1,0 +1,24 @@
+FROM lsiobase/cloud9:latest
+
+# set version label
+ARG BUILD_DATE
+ARG VERSION
+LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="thelamer"
+
+RUN \
+ echo "**** install python3 dev env from repos ****" && \
+ apt-get update && \
+ apt-get install -y \
+	build-essential \
+	libssl-dev \
+	libffi-dev \
+	python3-dev \
+	python3-pip \
+	python3-venv && \
+ echo "**** cleanup ****" && \
+ apt-get autoclean && \
+ rm -rf \
+	/var/lib/apt/lists/* \
+	/var/tmp/* \
+	/tmp/*

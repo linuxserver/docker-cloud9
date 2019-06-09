@@ -1,0 +1,52 @@
+---
+
+# project information
+project_name: cloud9
+project_url: "https://github.com/c9/core"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9.png"
+project_blurb: |
+  [{{ project_name|capitalize }}]({{ project_url }}) Cloud9 is a complete web based IDE with terminal access. This container is for running their core SDK locally and developing plugins.
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
+
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Docker and Compose environment pre-installed" }
+  - { tag: "go", desc: "Basic Golang environment pre-installed" }
+  - { tag: "nodejs", desc: "Current stable NodeJS/NPM environment pre-installed" }
+  - { tag: "python", desc: "Current Python3 environment pre-installed" }
+  - { tag: "ruby", desc: "Current Ruby environment pre-installed" }
+
+# container parameters
+param_container_name: "{{ project_name }}"
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "8000", internal_port: "8000", port_desc: "The port for the Cloud9 web interface" }
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Radarr"}
+
+# optional params
+opt_param_usage_include_vols: true
+opt_param_volumes:
+  - { vol_path: "/code", vol_host_path: "<path to your code>", desc: "Optionally if you want to mount up a local folder of code instead of checking out" }
+  - { vol_path: "/var/run/docker.sock", vol_host_path: "/var/run/docker.sock", desc: "Needed if you plan to use Docker or compose commands" }
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "GITURL", env_value: "https://github.com/linuxserver/docker-cloud9.git", desc: "Specify a git repo to checkout on first startup"}
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  Access the webui at http://your-ip:8000, for more information check out [here](https://docs.c9.io/docs).
+
+# changelog
+changelogs:
+  - { date: "02.06.19:", desc: "Initial Release." }
+

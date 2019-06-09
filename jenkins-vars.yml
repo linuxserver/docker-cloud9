@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-cloud9
+external_type: na
+custom_version_command: "curl -s https://golang.org/dl/ | awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $4;exit}'"
+release_type: prerelease
+release_tag: go
+ls_branch: go
+repo_vars:
+  - CONTAINER_NAME = 'cloud9'
+  - BUILD_VERSION_ARG = 'GO_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-cloud9'
+  - DOCKERHUB_IMAGE = 'linuxserver/cloud9'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/cloud9'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/cloud9'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''

@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-cloud9
+external_type: na
+custom_version_command: "curl -sX GET https://deb.nodesource.com/node_12.x/dists/bionic/main/binary-amd64/Packages | grep -A 7 -m 1 'Package: nodejs' | awk -F ': ' '/Version/{print $2;exit}'"
+release_type: prerelease
+release_tag: nodejs
+ls_branch: nodejs
+repo_vars:
+  - CONTAINER_NAME = 'cloud9'
+  - BUILD_VERSION_ARG = 'NODEJS_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-cloud9'
+  - DOCKERHUB_IMAGE = 'linuxserver/cloud9'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/cloud9'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/cloud9'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''

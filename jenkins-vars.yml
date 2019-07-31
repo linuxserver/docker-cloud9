@@ -3,7 +3,7 @@
 # jenkins variables
 project_name: docker-cloud9
 external_type: github_stable
-release_type: sable
+release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:

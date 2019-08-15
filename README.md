@@ -67,6 +67,7 @@ docker create \
   -e TZ=Europe/London \
   -e GITURL=https://github.com/linuxserver/docker-cloud9.git `#optional` \
   -p 8000:8000 \
+  -v <path to your configs>:/c9bins `#optional` \
   -v <path to your code>:/code `#optional` \
   -v /var/run/docker.sock:/var/run/docker.sock `#optional` \
   --restart unless-stopped \
@@ -109,6 +110,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Radarr |
 | `-e GITURL=https://github.com/linuxserver/docker-cloud9.git` | Specify a git repo to checkout on first startup |
+| `-v /c9bins` | Optionally if you want to mount up a local folder to persist any changes to user settings |
 | `-v /code` | Optionally if you want to mount up a local folder of code instead of checking out |
 | `-v /var/run/docker.sock` | Needed if you plan to use Docker or compose commands |
 

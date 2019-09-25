@@ -1,6 +1,6 @@
 adduser3.116ubuntu1
-apt1.6.11
-apt-utils1.6.11
+apt1.6.12
+apt-utils1.6.12
 base-files10.1ubuntu2.6
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
@@ -21,7 +21,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.2
 dpkg1.19.0.5ubuntu2.2
-dpkg-dev1.19.0.5ubuntu2.2
+dpkg-dev1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.1
 fakeroot1.22-2ubuntu1
 fdisk2.31.1-0.4ubuntu3.4
@@ -53,8 +53,8 @@ libacl12.2.52-3build1
 libalgorithm-diff-perl1.19.03-1
 libalgorithm-diff-xs-perl0.04-5
 libalgorithm-merge-perl0.08-3
-libapt-inst2.01.6.11
-libapt-pkg5.01.6.11
+libapt-inst2.01.6.12
+libapt-pkg5.01.6.12
 libasan47.4.0-1ubuntu1~18.04.1
 libasn1-8-heimdal7.5.0+dfsg-1
 libassuan02.5.1-2
@@ -77,7 +77,7 @@ libcurl3-gnutls7.58.0-2ubuntu3.8
 libcurl47.58.0-2ubuntu3.8
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
-libdpkg-perl1.19.0.5ubuntu2.2
+libdpkg-perl1.19.0.5ubuntu2.3
 liberror-perl0.17025-1
 libexpat12.2.5-3ubuntu0.2
 libext2fs21.44.1-1ubuntu1.1
@@ -152,12 +152,12 @@ libss21.44.1-1ubuntu1.1
 libssl1.11.1.1-1ubuntu2.1~18.04.4
 libstdc++68.3.0-6ubuntu1~18.04.1
 libstdc++-7-dev7.4.0-1ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.28
+libsystemd0237-3ubuntu10.29
 libtasn1-64.13-2
 libtinfo56.1-1ubuntu1.18.04
 libtsan08.3.0-6ubuntu1~18.04.1
 libubsan07.4.0-1ubuntu1~18.04.1
-libudev1237-3ubuntu10.28
+libudev1237-3ubuntu10.29
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.4
 libwind0-heimdal7.5.0+dfsg-1

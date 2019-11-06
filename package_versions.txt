@@ -27,7 +27,7 @@ dpkg-dev1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.2
 fakeroot1.22-2ubuntu1
 fdisk2.31.1-0.4ubuntu3.4
-file1:5.32-2ubuntu0.2
+file1:5.32-2ubuntu0.3
 findutils4.6.0+git+20170828-2
 g++4:7.4.0-1ubuntu2.3
 g++-77.4.0-1ubuntu1~18.04.1
@@ -113,7 +113,7 @@ libheimntlm0-heimdal7.5.0+dfsg-1
 libhogweed43.4-1
 libhx509-5-heimdal7.5.0+dfsg-1
 libicu6060.2-3ubuntu3
-libidn2-02.0.4-1.1build2
+libidn2-02.0.4-1.1ubuntu0.2
 libisl190.19-1
 libitm18.3.0-6ubuntu1~18.04.1
 libk5crypto31.16-2ubuntu0.1
@@ -128,8 +128,8 @@ liblocale-gettext-perl1.07-3build2
 liblsan08.3.0-6ubuntu1~18.04.1
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
-libmagic11:5.32-2ubuntu0.2
-libmagic-mgc1:5.32-2ubuntu0.2
+libmagic11:5.32-2ubuntu0.3
+libmagic-mgc1:5.32-2ubuntu0.3
 libmount12.31.1-0.4ubuntu3.4
 libmpc31.1.0-1
 libmpdec22.4.2-1ubuntu1

@@ -28,7 +28,7 @@ RUN \
  pip3 install \
 	-r requirements.txt \
 	-r requirements-build.txt && \
- ./script/build/write-git-sha && \
+ ./script/build/write-git-sha > compose/GITSHA && \
  pyinstaller docker-compose.spec && \
  mv dist/docker-compose /
 

@@ -170,8 +170,8 @@ libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.4
 libsqlite3-03.22.0-1ubuntu0.1
 libss21.44.1-1ubuntu1.2
-libssl1.11.1.1-1ubuntu2.1~18.04.4
-libssl-dev1.1.1-1ubuntu2.1~18.04.4
+libssl1.11.1.1-1ubuntu2.1~18.04.5
+libssl-dev1.1.1-1ubuntu2.1~18.04.5
 libstdc++68.3.0-6ubuntu1~18.04.1
 libstdc++-7-dev7.4.0-1ubuntu1~18.04.1
 libsystemd0237-3ubuntu10.31
@@ -185,7 +185,7 @@ libuuid12.31.1-0.4ubuntu3.4
 libwind0-heimdal7.5.0+dfsg-1
 libxml22.9.4+dfsg1-6.1ubuntu1.2
 libzstd11.3.3+dfsg-2ubuntu1.1
-linux-libc-dev4.15.0-69.78
+linux-libc-dev4.15.0-70.79
 locales2.27-3ubuntu1
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1

@@ -137,7 +137,7 @@ mime-support3.60ubuntu1
 mount2.31.1-0.4ubuntu3.4
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-nodejs12.14.0-1nodesource1
+nodejs12.14.1-1nodesource1
 openssl1.1.1-1ubuntu2.1~18.04.5
 passwd1:4.5-1ubuntu2
 perl5.26.1-6ubuntu0.3

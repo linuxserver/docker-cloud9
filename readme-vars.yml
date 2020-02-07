@@ -30,16 +30,18 @@ param_ports:
   - { external_port: "8000", internal_port: "8000", port_desc: "The port for the Cloud9 web interface" }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Radarr"}
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 
 # optional params
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/code", vol_host_path: "<path to your code>", desc: "Optionally if you want to mount up a local folder of code instead of checking out" }
+  - { vol_path: "/code", vol_host_path: "/path/to/your/code", desc: "Optionally if you want to mount up a local folder of code instead of checking out" }
   - { vol_path: "/var/run/docker.sock", vol_host_path: "/var/run/docker.sock", desc: "Needed if you plan to use Docker or compose commands" }
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "GITURL", env_value: "https://github.com/linuxserver/docker-cloud9.git", desc: "Specify a git repo to checkout on first startup"}
+  - { env_var: "USERNAME", env_value: "", desc: "Optionally specify a username for http auth"}
+  - { env_var: "PASSWORD", env_value: "", desc: "Optionally specify a password for http auth (if USERNAME and PASSWORD are not set, there will be no http auth)"}
 
 # application setup block
 app_setup_block_enabled: true
@@ -48,5 +50,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "07.02.20:", desc: "Add optional http auth." }
   - { date: "02.06.19:", desc: "Initial Release." }
 

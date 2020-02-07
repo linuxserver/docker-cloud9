@@ -80,8 +80,10 @@ docker create \
   -e PGID=1000 \
   -e TZ=Europe/London \
   -e GITURL=https://github.com/linuxserver/docker-cloud9.git `#optional` \
+  -e USERNAME= `#optional` \
+  -e PASSWORD= `#optional` \
   -p 8000:8000 \
-  -v <path to your code>:/code `#optional` \
+  -v /path/to/your/code:/code `#optional` \
   -v /var/run/docker.sock:/var/run/docker.sock `#optional` \
   --restart unless-stopped \
   linuxserver/cloud9
@@ -104,8 +106,10 @@ services:
       - PGID=1000
       - TZ=Europe/London
       - GITURL=https://github.com/linuxserver/docker-cloud9.git #optional
+      - USERNAME= #optional
+      - PASSWORD= #optional
     volumes:
-      - <path to your code>:/code #optional
+      - /path/to/your/code:/code #optional
       - /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
       - 8000:8000
@@ -121,8 +125,10 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8000` | The port for the Cloud9 web interface |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Radarr |
+| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
 | `-e GITURL=https://github.com/linuxserver/docker-cloud9.git` | Specify a git repo to checkout on first startup |
+| `-e USERNAME=` | Optionally specify a username for http auth |
+| `-e PASSWORD=` | Optionally specify a password for http auth (if USERNAME and PASSWORD are not set, there will be no http auth) |
 | `-v /code` | Optionally if you want to mount up a local folder of code instead of checking out |
 | `-v /var/run/docker.sock` | Needed if you plan to use Docker or compose commands |
 
@@ -223,4 +229,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **07.02.20:** - Add optional http auth.
 * **02.06.19:** - Initial Release.

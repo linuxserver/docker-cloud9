@@ -9,7 +9,7 @@ RUN \
 	git \
 	libffi-dev \
 	python3 \
-        python3-dev \
+	python3-dev \
 	python3-pip \
 	zlib1g-dev
 
@@ -47,16 +47,16 @@ COPY --from=buildstage /docker-compose /usr/local/bin/
 RUN \
  echo "**** install docker deps ****" && \
  curl -s \
-        https://download.docker.com/linux/debian/gpg | \
-        apt-key add - && \
+	https://download.docker.com/linux/debian/gpg | \
+	apt-key add - && \
  echo 'deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable' > \
-        /etc/apt/sources.list.d/docker-ce.list && \
+	/etc/apt/sources.list.d/docker-ce.list && \
  apt-get update && \
  apt-get install -y --no-install-recommends \
-        docker-ce && \
+	docker-ce && \
  echo "**** Cleanup and user perms ****" && \
  apt-get autoclean && \
  rm -rf \
-        /var/lib/apt/lists/* \
-        /var/tmp/* \
-        /tmp/*
+	/var/lib/apt/lists/* \
+	/var/tmp/* \
+	/tmp/*

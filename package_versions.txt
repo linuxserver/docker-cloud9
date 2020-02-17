@@ -121,10 +121,10 @@ libsqlite3-03.22.0-1ubuntu0.2
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.33
+libsystemd0237-3ubuntu10.38
 libtasn1-64.13-2
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.33
+libudev1237-3ubuntu10.38
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.5
 libwind0-heimdal7.5.0+dfsg-1
@@ -137,7 +137,7 @@ mime-support3.60ubuntu1
 mount2.31.1-0.4ubuntu3.5
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-nodejs12.15.0-1nodesource1
+nodejs12.16.0-1nodesource1
 openssl1.1.1-1ubuntu2.1~18.04.5
 passwd1:4.5-1ubuntu2
 perl5.26.1-6ubuntu0.3

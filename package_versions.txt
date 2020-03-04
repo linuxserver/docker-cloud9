@@ -145,7 +145,7 @@ perl-modules-5.265.26.1-6ubuntu0.3
 pinentry-curses1.1.0-1
 procps2:3.3.12-3ubuntu1.2
 publicsuffix20180223.1310-1
-rake12.3.1-1
+rake12.3.1-1ubuntu0.1
 readline-common7.0-3
 ri1:2.5.1
 ruby1:2.5.1

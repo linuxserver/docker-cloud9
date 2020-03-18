@@ -132,6 +132,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-v /code` | Optionally if you want to mount up a local folder of code instead of checking out |
 | `-v /var/run/docker.sock` | Needed if you plan to use Docker or compose commands |
 
+
 ## Environment variables from files (Docker secrets)
 
 You can set any environment variable from a file by using a special prepend `FILE__`. 

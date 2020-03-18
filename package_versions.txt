@@ -15,8 +15,8 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.2
-docker-ce5:19.03.7~3-0~ubuntu-bionic
-docker-ce-cli5:19.03.7~3-0~ubuntu-bionic
+docker-ce5:19.03.8~3-0~ubuntu-bionic
+docker-ce-cli5:19.03.8~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.5
@@ -122,7 +122,7 @@ libsemanage12.7-2build2
 libsemanage-common2.7-2build2
 libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.5
-libsqlite3-03.22.0-1ubuntu0.2
+libsqlite3-03.22.0-1ubuntu0.3
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
 libstdc++68.3.0-6ubuntu1~18.04.1

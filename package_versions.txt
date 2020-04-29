@@ -32,8 +32,8 @@ gcc4:7.4.0-1ubuntu2.3
 gcc-77.5.0-3ubuntu1~18.04
 gcc-7-base7.5.0-3ubuntu1~18.04
 gcc-8-base8.4.0-1ubuntu1~18.04
-git1:2.17.1-1ubuntu0.6
-git-man1:2.17.1-1ubuntu0.6
+git1:2.17.1-1ubuntu0.7
+git-man1:2.17.1-1ubuntu0.7
 gnupg2.2.4-1ubuntu1.2
 gnupg-l10n2.2.4-1ubuntu1.2
 gnupg-utils2.2.4-1ubuntu1.2
@@ -162,7 +162,7 @@ libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
 libwind0-heimdal7.5.0+dfsg-1
 libzstd11.3.3+dfsg-2ubuntu1.1
-linux-libc-dev4.15.0-96.97
+linux-libc-dev4.15.0-99.100
 locales2.27-3ubuntu1
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1

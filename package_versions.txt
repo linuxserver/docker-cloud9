@@ -16,7 +16,7 @@ cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
 curl7.58.0-2ubuntu3.8
 dash0.5.8-2.10
-dbus1.12.2-1ubuntu1.1
+dbus1.12.2-1ubuntu1.2
 debconf1.5.66ubuntu1
 debianutils4.8.4
 dh-python3.20180325ubuntu2
@@ -81,7 +81,7 @@ libcom-err21.44.1-1ubuntu1.3
 libcurl3-gnutls7.58.0-2ubuntu3.8
 libcurl47.58.0-2ubuntu3.8
 libdb5.35.3.28-13.1ubuntu1.1
-libdbus-1-31.12.2-1ubuntu1.1
+libdbus-1-31.12.2-1ubuntu1.2
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.3
 liberror-perl0.17025-1
@@ -168,7 +168,7 @@ libsemanage12.7-2build2
 libsemanage-common2.7-2build2
 libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.6
-libsqlite3-03.22.0-1ubuntu0.3
+libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
 libssl-dev1.1.1-1ubuntu2.1~18.04.6

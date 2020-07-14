@@ -15,7 +15,7 @@ RUN \
  echo "**** install Golang ****" && \
  if [ -z ${GO_VERSION+x} ]; then \
         GO_VERSION=$(curl -s https://golang.org/dl/ \
-	| awk -F '(go|.linux-armv6l.tar.gz)' '/linux-armv6l.tar.gz/ {print $4;exit}'); \
+	| awk -F '(go|.linux-armv6l.tar.gz)' '/linux-armv6l.tar.gz/ {print $2;exit}'); \
  fi && \
  apt-get update && \
  apt-get install -y \

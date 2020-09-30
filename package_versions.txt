@@ -7,7 +7,7 @@ bash4.4.18-2ubuntu1.2
 binutils2.30-21ubuntu1~18.04.4
 binutils-common2.30-21ubuntu1~18.04.4
 binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.4
-bsdutils1:2.31.1-0.4ubuntu3.6
+bsdutils1:2.31.1-0.4ubuntu3.7
 build-essential12.4ubuntu1
 bzip21.0.6-8.1ubuntu0.2
 ca-certificates20190110~18.04.1
@@ -26,7 +26,7 @@ dpkg1.19.0.5ubuntu2.3
 dpkg-dev1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fakeroot1.22-2ubuntu1
-fdisk2.31.1-0.4ubuntu3.6
+fdisk2.31.1-0.4ubuntu3.7
 file1:5.32-2ubuntu0.4
 findutils4.6.0+git+20170828-2
 g++4:7.4.0-1ubuntu2.3
@@ -68,7 +68,7 @@ libattr11:2.4.47-2build1
 libaudit11:2.8.2-1ubuntu1
 libaudit-common1:2.8.2-1ubuntu1
 libbinutils2.30-21ubuntu1~18.04.4
-libblkid12.31.1-0.4ubuntu3.6
+libblkid12.31.1-0.4ubuntu3.7
 libbz2-1.01.0.6-8.1ubuntu0.2
 libc62.27-3ubuntu1.2
 libc6-dev2.27-3ubuntu1.2
@@ -89,7 +89,7 @@ libexpat12.2.5-3ubuntu0.2
 libexpat1-dev2.2.5-3ubuntu0.2
 libext2fs21.44.1-1ubuntu1.3
 libfakeroot1.22-2ubuntu1
-libfdisk12.31.1-0.4ubuntu3.6
+libfdisk12.31.1-0.4ubuntu3.7
 libffi63.2.1-8
 libffi-dev3.2.1-8
 libfile-fcntllock-perl0.22-3build2
@@ -130,7 +130,7 @@ liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
 libmagic11:5.32-2ubuntu0.4
 libmagic-mgc1:5.32-2ubuntu0.4
-libmount12.31.1-0.4ubuntu3.6
+libmount12.31.1-0.4ubuntu3.7
 libmpc31.1.0-1
 libmpdec22.4.2-1ubuntu1
 libmpfr64.0.1-1
@@ -167,7 +167,7 @@ libselinux12.7-2build2
 libsemanage12.7-2build2
 libsemanage-common2.7-2build2
 libsepol12.7-1
-libsmartcols12.31.1-0.4ubuntu3.6
+libsmartcols12.31.1-0.4ubuntu3.7
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
@@ -181,7 +181,7 @@ libtsan08.4.0-1ubuntu1~18.04
 libubsan07.5.0-3ubuntu1~18.04
 libudev1237-3ubuntu10.42
 libunistring20.9.9-0ubuntu2
-libuuid12.31.1-0.4ubuntu3.6
+libuuid12.31.1-0.4ubuntu3.7
 libwind0-heimdal7.5.0+dfsg-1
 libxml22.9.4+dfsg1-6.1ubuntu1.3
 libzstd11.3.3+dfsg-2ubuntu1.1
@@ -194,7 +194,7 @@ manpages4.15-1
 manpages-dev4.15-1
 mawk1.3.3-17ubuntu3
 mime-support3.60ubuntu1
-mount2.31.1-0.4ubuntu3.6
+mount2.31.1-0.4ubuntu3.7
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 openssl1.1.1-1ubuntu2.1~18.04.6
@@ -243,7 +243,7 @@ tar1.29b-2ubuntu0.1
 tzdata2020a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 unzip6.0-21ubuntu1
-util-linux2.31.1-0.4ubuntu3.6
+util-linux2.31.1-0.4ubuntu3.7
 xdg-user-dirs0.17-1ubuntu1
 xz-utils5.2.2-1.3
 zip3.0-11build1

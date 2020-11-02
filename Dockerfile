@@ -1,4 +1,4 @@
-FROM lsiobase/cloud9:latest
+FROM ghcr.io/linuxserver/baseimage-cloud9:latest
 
 # set version label
 ARG BUILD_DATE

@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:arm64v8-bionic as buildstage
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-bionic as buildstage
 
 ARG COMPOSE_VERSION
 
@@ -34,7 +34,7 @@ RUN \
  mv dist/docker-compose /
 
 # runtime stage
-FROM lsiobase/cloud9:arm64v8-latest
+FROM ghcr.io/linuxserver/baseimage-cloud9:arm64v8-latest
 
 # set version label
 ARG BUILD_DATE

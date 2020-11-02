@@ -1,4 +1,4 @@
-FROM lsiobase/cloud9:arm32v7-latest
+FROM ghcr.io/linuxserver/baseimage-cloud9:arm32v7-latest
 
 # set version label
 ARG BUILD_DATE

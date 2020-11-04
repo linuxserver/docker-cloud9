@@ -70,12 +70,12 @@ libaudit-common1:2.8.2-1ubuntu1
 libbinutils2.30-21ubuntu1~18.04.4
 libblkid12.31.1-0.4ubuntu3.7
 libbz2-1.01.0.6-8.1ubuntu0.2
-libc62.27-3ubuntu1.2
-libc6-dev2.27-3ubuntu1.2
+libc62.27-3ubuntu1.3
+libc6-dev2.27-3ubuntu1.3
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1.2
 libcc1-08.4.0-1ubuntu1~18.04
-libc-dev-bin2.27-3ubuntu1.2
+libc-dev-bin2.27-3ubuntu1.3
 libcilkrts57.5.0-3ubuntu1~18.04
 libcom-err21.44.1-1ubuntu1.3
 libcurl3-gnutls7.58.0-2ubuntu3.10
@@ -214,7 +214,7 @@ python3.6-venv3.6.9-1~18.04ubuntu1.3
 python3-asn1crypto0.24.0-1
 python3-cffi-backend1.11.5-1
 python3-crypto2.6.1-8ubuntu2
-python3-cryptography2.1.4-1ubuntu1.3
+python3-cryptography2.1.4-1ubuntu1.4
 python3-dbus1.2.6-1
 python3-dev3.6.7-1~18.04
 python3-distutils3.6.9-1~18.04

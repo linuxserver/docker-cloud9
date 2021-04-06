@@ -9,7 +9,7 @@ bzip21.0.6-8.1ubuntu0.2
 ca-certificates20210119~18.04.1
 containerd.io1.4.4-1
 coreutils8.28-1ubuntu1
-curl7.58.0-2ubuntu3.12
+curl7.58.0-2ubuntu3.13
 dash0.5.8-2.10
 debconf1.5.66ubuntu1
 debianutils4.8.4
@@ -54,8 +54,8 @@ libc62.27-3ubuntu1.4
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1.4
 libcom-err21.44.1-1ubuntu1.3
-libcurl3-gnutls7.58.0-2ubuntu3.12
-libcurl47.58.0-2ubuntu3.12
+libcurl3-gnutls7.58.0-2ubuntu3.13
+libcurl47.58.0-2ubuntu3.13
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdevmapper1.02.12:1.02.145-4.1ubuntu3.18.04.3
@@ -158,7 +158,7 @@ sudo1.8.21p2-3ubuntu1.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.2
 tzdata2021a-0ubuntu0.18.04
-ubuntu-keyring2018.09.18.1~18.04.0
+ubuntu-keyring2018.09.18.1~18.04.2
 unzip6.0-21ubuntu1.1
 util-linux2.31.1-0.4ubuntu3.7
 zip3.0-11build1

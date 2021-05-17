@@ -26,9 +26,9 @@ RUN \
   cd compose && \
   git checkout ${COMPOSE_VERSION} && \
   pip3 install -U pip && \
-  pip install --find-links https://wheel-index.linuxserver.io/ubuntu/ \
-    pyinstaller && \
   pip install \
+    pyinstaller && \
+  pip install --find-links https://wheel-index.linuxserver.io/ubuntu/ \
     -r requirements.txt \
     -r requirements-build.txt && \
   ./script/build/write-git-sha > compose/GITSHA && \

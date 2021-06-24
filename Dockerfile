@@ -1,7 +1,7 @@
-ARG COMPOSE_VERSION="latest"
+ARG COMPOSE_VERSION="1.29.2"
 
 # docker compose
-FROM ghcr.io/linuxserver/docker-compose:amd64-${COMPOSE_VERSION} as compose
+FROM ghcr.io/linuxserver/docker-compose:amd64-version-${COMPOSE_VERSION} as compose
 
 # runtime stage
 FROM ghcr.io/linuxserver/baseimage-cloud9:latest

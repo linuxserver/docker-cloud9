@@ -2,7 +2,8 @@
 
 # jenkins variables
 project_name: docker-cloud9
-external_type: github_stable
+external_type: na
+custom_version_command: "curl -sX GET https://api.github.com/repos/linuxserver/docker-docker-compose/releases/latest | jq -r '.tag_name' | sed 's|-ls.*||'"
 release_type: stable
 release_tag: latest
 ls_branch: master

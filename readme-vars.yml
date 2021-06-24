@@ -50,6 +50,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "24.06.21:", desc: "Use prebuilt compose binaries for the linuxserver repo." }
   - { date: "07.02.20:", desc: "Add optional http auth." }
   - { date: "02.06.19:", desc: "Initial Release." }
 

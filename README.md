@@ -246,5 +246,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.06.21:** - Use prebuilt compose binaries for the linuxserver repo.
 * **07.02.20:** - Add optional http auth.
 * **02.06.19:** - Initial Release.

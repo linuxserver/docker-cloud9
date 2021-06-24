@@ -8,8 +8,8 @@ release_tag: latest
 ls_branch: master
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'docker'
-  - EXT_REPO = 'compose'
+  - EXT_USER = 'linuxserver'
+  - EXT_REPO = 'docker-docker-compose'
   - BUILD_VERSION_ARG = 'COMPOSE_VERSION'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-cloud9'

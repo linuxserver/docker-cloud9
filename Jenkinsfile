@@ -17,8 +17,8 @@ pipeline {
     GITLAB_TOKEN=credentials('b6f0f1dd-6952-4cf6-95d1-9c06380283f0')
     GITLAB_NAMESPACE=credentials('gitlab-namespace-id')
     EXT_GIT_BRANCH = 'master'
-    EXT_USER = 'docker'
-    EXT_REPO = 'compose'
+    EXT_USER = 'linuxserver'
+    EXT_REPO = 'docker-docker-compose'
     BUILD_VERSION_ARG = 'COMPOSE_VERSION'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-cloud9'

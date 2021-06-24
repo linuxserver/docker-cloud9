@@ -1,39 +1,7 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm32v7-bionic as buildstage
+ARG COMPOSE_VERSION="latest"
 
-ARG COMPOSE_VERSION
-
-RUN \
- echo "**** install packages ****" && \
- apt-get update && \
- apt-get install -y \
-	git \
-	libffi-dev \
-	libssl-dev \
-	python3 \
-	python3-dev \
-	python3-pip \
-	rustc \
-	zlib1g-dev
-
-RUN \
- echo "**** build compose ****" && \
- cd /tmp && \
- if [ -z ${COMPOSE_VERSION+x} ]; then \
-	COMPOSE_VERSION=$(curl -sX GET "https://api.github.com/repos/docker/compose/releases/latest" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
- fi && \
- git clone https://github.com/docker/compose.git && \
- cd compose && \
- git checkout ${COMPOSE_VERSION} && \
- pip3 install -U pip && \
- pip install \
-	pyinstaller && \
- pip install \
-	-r requirements.txt \
-	-r requirements-build.txt && \
- ./script/build/write-git-sha > compose/GITSHA && \
- pyinstaller docker-compose.spec && \
- mv dist/docker-compose /
+# docker compose
+FROM ghcr.io/linuxserver/docker-compose:arm32v7-${COMPOSE_VERSION} as compose
 
 # runtime stage
 FROM ghcr.io/linuxserver/baseimage-cloud9:arm32v7-latest
@@ -45,7 +13,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # Docker compose
-COPY --from=buildstage /docker-compose /usr/local/bin/
+COPY --from=compose /usr/local/bin/docker-compose /usr/local/bin/docker-compose
 
 RUN \
  echo "**** install docker deps ****" && \

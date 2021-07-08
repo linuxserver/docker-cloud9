@@ -1,6 +1,6 @@
 adduser3.116ubuntu1
-apt1.6.13
-apt-utils1.6.13
+apt1.6.14
+apt-utils1.6.14
 base-files10.1ubuntu2.10
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
@@ -53,8 +53,8 @@ libacl12.2.52-3build1
 libalgorithm-diff-perl1.19.03-1
 libalgorithm-diff-xs-perl0.04-5
 libalgorithm-merge-perl0.08-3
-libapt-inst2.01.6.13
-libapt-pkg5.01.6.13
+libapt-inst2.01.6.14
+libapt-pkg5.01.6.14
 libasan47.5.0-3ubuntu1~18.04
 libasn1-8-heimdal7.5.0+dfsg-1
 libassuan02.5.1-2

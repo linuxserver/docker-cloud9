@@ -1,7 +1,7 @@
 adduser3.116ubuntu1
 apt1.6.14
 apt-utils1.6.14
-base-files10.1ubuntu2.10
+base-files10.1ubuntu2.11
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 bsdutils1:2.31.1-0.4ubuntu3.7
@@ -22,8 +22,8 @@ e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7
 findutils4.6.0+git+20170828-2
 gcc-8-base8.4.0-1ubuntu1~18.04
-git1:2.17.1-1ubuntu0.8
-git-man1:2.17.1-1ubuntu0.8
+git1:2.17.1-1ubuntu0.9
+git-man1:2.17.1-1ubuntu0.9
 gnupg2.2.4-1ubuntu1.4
 gnupg-l10n2.2.4-1ubuntu1.4
 gnupg-utils2.2.4-1ubuntu1.4

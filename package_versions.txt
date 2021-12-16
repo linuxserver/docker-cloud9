@@ -15,8 +15,8 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
-docker-ce5:20.10.11~3-0~ubuntu-bionic
-docker-ce-cli5:20.10.11~3-0~ubuntu-bionic
+docker-ce5:20.10.12~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.12~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7
@@ -124,7 +124,7 @@ libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.7
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
-libssl1.11.1.1-1ubuntu2.1~18.04.13
+libssl1.11.1.1-1ubuntu2.1~18.04.14
 libstdc++68.4.0-1ubuntu1~18.04
 libsystemd0237-3ubuntu10.52
 libtasn1-64.13-2
@@ -143,7 +143,7 @@ mount2.31.1-0.4ubuntu3.7
 multiarch-support2.27-3ubuntu1.4
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-openssl1.1.1-1ubuntu2.1~18.04.13
+openssl1.1.1-1ubuntu2.1~18.04.14
 passwd1:4.5-1ubuntu2
 perl5.26.1-6ubuntu0.5
 perl-base5.26.1-6ubuntu0.5

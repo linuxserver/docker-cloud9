@@ -107,7 +107,7 @@ libpsl50.19.1-5build1
 libreadline77.0-3
 libroken18-heimdal7.5.0+dfsg-1
 librtmp12.4+20151223.gitfa8646d.1-1
-libruby2.52.5.1-1ubuntu1.10
+libruby2.52.5.1-1ubuntu1.11
 libsasl2-22.1.27~101-g0780600+dfsg-3ubuntu2.3
 libsasl2-modules2.1.27~101-g0780600+dfsg-3ubuntu2.3
 libsasl2-modules-db2.1.27~101-g0780600+dfsg-3ubuntu2.3
@@ -149,9 +149,9 @@ rake12.3.1-1ubuntu0.1
 readline-common7.0-3
 ri1:2.5.1
 ruby1:2.5.1
-ruby2.52.5.1-1ubuntu1.10
-ruby2.5-dev2.5.1-1ubuntu1.10
-ruby2.5-doc2.5.1-1ubuntu1.10
+ruby2.52.5.1-1ubuntu1.11
+ruby2.5-dev2.5.1-1ubuntu1.11
+ruby2.5-doc2.5.1-1ubuntu1.11
 ruby-dev1:2.5.1
 ruby-did-you-mean1.2.0-2
 ruby-full1:2.5.1

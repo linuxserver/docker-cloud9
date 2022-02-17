@@ -104,7 +104,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -s https://golang.org/dl/ | awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $2;exit}'
+            script: ''' curl -sL https://go.dev/dl/ | awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $2;exit}'
  ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'

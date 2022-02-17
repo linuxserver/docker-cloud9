@@ -14,7 +14,7 @@ ENV PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 RUN \
  echo "**** install Golang ****" && \
  if [ -z ${GO_VERSION+x} ]; then \
-        GO_VERSION=$(curl -s https://golang.org/dl/ \
+        GO_VERSION=$(curl -sL https://go.dev/dl/ \
 	| awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $2;exit}'); \
  fi && \
  apt-get update && \
@@ -22,7 +22,7 @@ RUN \
 	build-essential && \
  curl -o \
 	/tmp/go.tar.gz -L \
-	https://dl.google.com/go/go"${GO_VERSION}".linux-amd64.tar.gz && \
+	https://go.dev/dl/go"${GO_VERSION}".linux-amd64.tar.gz && \
  cd /tmp && \
  tar xf \
 	go.tar.gz && \

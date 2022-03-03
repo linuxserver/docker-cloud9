@@ -4,7 +4,7 @@
 project_name: docker-cloud9
 external_type: na
 custom_version_command: |
-  curl -s https://golang.org/dl/ | awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $2;exit}'
+  curl -sL https://go.dev/dl/ | awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $2;exit}'
 release_type: prerelease
 release_tag: go
 ls_branch: go

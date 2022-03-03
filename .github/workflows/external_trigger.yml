@@ -18,7 +18,7 @@ jobs:
           fi
           echo "**** External trigger running off of go branch. To disable this trigger, set a Github secret named \"PAUSE_EXTERNAL_TRIGGER_CLOUD9_GO\". ****"
           echo "**** Retrieving external version ****"
-          EXT_RELEASE=$(curl -s https://golang.org/dl/ | awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $2;exit}'
+          EXT_RELEASE=$(curl -sL https://go.dev/dl/ | awk -F '(go|.linux-amd64.tar.gz)' '/linux-amd64.tar.gz/ {print $2;exit}'
 )
           if [ -z "${EXT_RELEASE}" ] || [ "${EXT_RELEASE}" == "null" ]; then
             echo "**** Can't retrieve external version, exiting ****"

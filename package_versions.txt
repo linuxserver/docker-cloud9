@@ -185,8 +185,8 @@ libuuid12.31.1-0.4ubuntu3.7
 libwind0-heimdal7.5.0+dfsg-1
 libxml22.9.4+dfsg1-6.1ubuntu1.4
 libzstd11.3.3+dfsg-2ubuntu1.2
-linux-libc-dev4.15.0-169.177
-locales2.27-3ubuntu1.4
+linux-libc-dev4.15.0-171.180
+locales2.27-3ubuntu1.5
 login1:4.5-1ubuntu2.2
 lsb-base9.20170808ubuntu1
 make4.1-9.1ubuntu1

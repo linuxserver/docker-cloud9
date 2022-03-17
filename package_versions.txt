@@ -7,7 +7,7 @@ bash4.4.18-2ubuntu1.2
 bsdutils1:2.31.1-0.4ubuntu3.7
 bzip21.0.6-8.1ubuntu0.2
 ca-certificates20210119~18.04.2
-containerd.io1.4.13-1
+containerd.io1.5.10-1
 coreutils8.28-1ubuntu1
 curl7.58.0-2ubuntu3.16
 dash0.5.8-2.10
@@ -15,8 +15,8 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
-docker-ce5:20.10.12~3-0~ubuntu-bionic
-docker-ce-cli5:20.10.12~3-0~ubuntu-bionic
+docker-ce5:20.10.13~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.13~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7
@@ -60,7 +60,7 @@ libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdevmapper1.02.12:1.02.145-4.1ubuntu3.18.04.3
 liberror-perl0.17025-1
-libexpat12.2.5-3ubuntu0.4
+libexpat12.2.5-3ubuntu0.7
 libext2fs21.44.1-1ubuntu1.3
 libfdisk12.31.1-0.4ubuntu3.7
 libffi63.2.1-8

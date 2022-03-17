@@ -85,8 +85,8 @@ libdbus-1-31.12.2-1ubuntu1.2
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.3
 liberror-perl0.17025-1
-libexpat12.2.5-3ubuntu0.4
-libexpat1-dev2.2.5-3ubuntu0.4
+libexpat12.2.5-3ubuntu0.7
+libexpat1-dev2.2.5-3ubuntu0.7
 libext2fs21.44.1-1ubuntu1.3
 libfakeroot1.22-2ubuntu1
 libfdisk12.31.1-0.4ubuntu3.7
@@ -170,8 +170,8 @@ libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.7
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
-libssl1.11.1.1-1ubuntu2.1~18.04.14
-libssl-dev1.1.1-1ubuntu2.1~18.04.14
+libssl1.11.1.1-1ubuntu2.1~18.04.15
+libssl-dev1.1.1-1ubuntu2.1~18.04.15
 libstdc++68.4.0-1ubuntu1~18.04
 libstdc++-7-dev7.5.0-3ubuntu1~18.04
 libsystemd0237-3ubuntu10.53
@@ -183,7 +183,7 @@ libudev1237-3ubuntu10.53
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.7
 libwind0-heimdal7.5.0+dfsg-1
-libxml22.9.4+dfsg1-6.1ubuntu1.4
+libxml22.9.4+dfsg1-6.1ubuntu1.5
 libzstd11.3.3+dfsg-2ubuntu1.2
 linux-libc-dev4.15.0-171.180
 locales2.27-3ubuntu1.5

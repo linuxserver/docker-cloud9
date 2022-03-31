@@ -102,8 +102,8 @@ libpcre32:8.39-9
 libperl5.265.26.1-6ubuntu0.5
 libprocps62:3.3.12-3ubuntu1.2
 libpsl50.19.1-5build1
-libpython2.7-minimal2.7.17-1~18.04ubuntu1.6
-libpython2.7-stdlib2.7.17-1~18.04ubuntu1.6
+libpython2.7-minimal2.7.17-1~18.04ubuntu1.7
+libpython2.7-stdlib2.7.17-1~18.04ubuntu1.7
 libpython-stdlib2.7.15~rc1-1
 libreadline77.0-3
 libroken18-heimdal7.5.0+dfsg-1
@@ -147,8 +147,8 @@ pinentry-curses1.1.0-1
 procps2:3.3.12-3ubuntu1.2
 publicsuffix20180223.1310-1
 python2.7.15~rc1-1
-python2.72.7.17-1~18.04ubuntu1.6
-python2.7-minimal2.7.17-1~18.04ubuntu1.6
+python2.72.7.17-1~18.04ubuntu1.7
+python2.7-minimal2.7.17-1~18.04ubuntu1.7
 python-minimal2.7.15~rc1-1
 readline-common7.0-3
 sed4.4-2
@@ -156,7 +156,7 @@ sensible-utils0.0.12
 sudo1.8.21p2-3ubuntu1.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.3
-tzdata2021e-0ubuntu0.18.04
+tzdata2022a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 unzip6.0-21ubuntu1.1
 util-linux2.31.1-0.4ubuntu3.7

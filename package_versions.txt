@@ -149,10 +149,10 @@ libpcre32:8.39-9
 libperl5.265.26.1-6ubuntu0.5
 libprocps62:3.3.12-3ubuntu1.2
 libpsl50.19.1-5build1
-libpython3.63.6.9-1~18.04ubuntu1.6
-libpython3.6-dev3.6.9-1~18.04ubuntu1.6
-libpython3.6-minimal3.6.9-1~18.04ubuntu1.6
-libpython3.6-stdlib3.6.9-1~18.04ubuntu1.6
+libpython3.63.6.9-1~18.04ubuntu1.7
+libpython3.6-dev3.6.9-1~18.04ubuntu1.7
+libpython3.6-minimal3.6.9-1~18.04ubuntu1.7
+libpython3.6-stdlib3.6.9-1~18.04ubuntu1.7
 libpython3-dev3.6.7-1~18.04
 libpython3-stdlib3.6.7-1~18.04
 libquadmath08.4.0-1ubuntu1~18.04
@@ -185,7 +185,7 @@ libuuid12.31.1-0.4ubuntu3.7
 libwind0-heimdal7.5.0+dfsg-1
 libxml22.9.4+dfsg1-6.1ubuntu1.5
 libzstd11.3.3+dfsg-2ubuntu1.2
-linux-libc-dev4.15.0-173.182
+linux-libc-dev4.15.0-175.184
 locales2.27-3ubuntu1.5
 login1:4.5-1ubuntu2.2
 lsb-base9.20170808ubuntu1
@@ -207,10 +207,10 @@ pinentry-curses1.1.0-1
 procps2:3.3.12-3ubuntu1.2
 publicsuffix20180223.1310-1
 python33.6.7-1~18.04
-python3.63.6.9-1~18.04ubuntu1.6
-python3.6-dev3.6.9-1~18.04ubuntu1.6
-python3.6-minimal3.6.9-1~18.04ubuntu1.6
-python3.6-venv3.6.9-1~18.04ubuntu1.6
+python3.63.6.9-1~18.04ubuntu1.7
+python3.6-dev3.6.9-1~18.04ubuntu1.7
+python3.6-minimal3.6.9-1~18.04ubuntu1.7
+python3.6-venv3.6.9-1~18.04ubuntu1.7
 python3-asn1crypto0.24.0-1
 python3-cffi-backend1.11.5-1
 python3-crypto2.6.1-8ubuntu2
@@ -240,7 +240,7 @@ shared-mime-info1.9-2
 sudo1.8.21p2-3ubuntu1.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.3
-tzdata2021e-0ubuntu0.18.04
+tzdata2022a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 unzip6.0-21ubuntu1.1
 util-linux2.31.1-0.4ubuntu3.7

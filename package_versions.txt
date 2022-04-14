@@ -83,7 +83,7 @@ libip4tc01.6.1-2ubuntu2
 libip6tc01.6.1-2ubuntu2
 libiptc01.6.1-2ubuntu2
 libk5crypto31.16-2ubuntu0.2
-libkeyutils11.5.9-9.2ubuntu2
+libkeyutils11.5.9-9.2ubuntu2.1
 libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.2
 libkrb5support01.16-2ubuntu0.2

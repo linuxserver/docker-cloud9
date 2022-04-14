@@ -105,7 +105,7 @@ libidn2-02.0.4-1.1ubuntu0.2
 libisl190.19-1
 libitm18.4.0-1ubuntu1~18.04
 libk5crypto31.16-2ubuntu0.2
-libkeyutils11.5.9-9.2ubuntu2
+libkeyutils11.5.9-9.2ubuntu2.1
 libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.2
 libkrb5support01.16-2ubuntu0.2
@@ -192,6 +192,6 @@ tzdata2022a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 unzip6.0-21ubuntu1.1
 util-linux2.31.1-0.4ubuntu3.7
-xz-utils5.2.2-1.3
+xz-utils5.2.2-1.3ubuntu0.1
 zip3.0-11build1
 zlib1g1:1.2.11.dfsg-0ubuntu2

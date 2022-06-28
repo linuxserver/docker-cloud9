@@ -1,3 +1,10 @@
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+We recommend looking at our code-server and openvscode-server containers as potential replacements.
+https://github.com/linuxserver/docker-code-server
+https://github.com/linuxserver/docker-openvscode-server
+
 <!--- Provide a general summary of your changes in the Title above -->
 
 [linuxserverurl]: https://linuxserver.io
